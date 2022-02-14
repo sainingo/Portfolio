@@ -1,5 +1,5 @@
-# Hello Microverse First Project
-> Microverse Learning Process
+# Mobile Portfolio Design
+> Sainingo Mobile Portfolio Design Version
 
 # Built With
 - Html
@@ -16,7 +16,7 @@ To run the above project you need to meet the following requirements:
 > To run the above project you need to:
 > Run the following commands on your terminal of choice
 
-- git clone  *git@github.com:sainingo/Hello_Microverse_Project.git*
+- git clone  *git@github.com:sainingo/Portfolio.git*
 - cd /Hello_Microverse_Project
 
 
