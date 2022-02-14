@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fffdfd;
+}
+
+main {
+  background-image: url("./assets/images/bg_img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 200vh;
+  margin-top: -30px;
+}
+
+header {
+  margin: 20px;
+  color: #28352f;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 18px;
+}
+
+header a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  font-style: normal;
+}
+
+header a:hover {
+  background: #ff96ad;
+  box-shadow: 0 0 5px #e2c0c8, 0 0 25px #e2c0c8, 0 0 50px #e2c0c8,
+    0 0 200px #e2c0c8;
+}
+
+header nav a {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 58px 0px 40px 0px;
+  padding-top: 48px;
+  padding-right: 10px;
+}
+
+.flex span {
+  color: #3cb371;
+}
+
+.flex p {
+  color: #172b4d;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  margin: 5px 20px;
+}
+
+.flex ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #505f79;
+  font-size: 22px;
+  margin-top: 40px;
+}
+.flex ul li {
+  padding: 10px;
+}
+
+.flex ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
