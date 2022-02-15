@@ -445,6 +445,11 @@ header nav a {
   color: #fff;
 }
 
+.get-intouch button:hover {
+  background: #5a5a5a;
+  color: #fff;
+}
+
 .card button:hover {
   background: #5a5a5a;
   color: #fff;
