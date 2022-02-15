@@ -6,6 +6,9 @@
 - Css
 - Git & Gitflow
 
+## Live Demo
+Please [watch](https://www.loom.com/share/9626f557c2314a56bbf24848292c6d52)
+
 ## Getting Started
 To run the above project you need to meet the following requirements:
 ## Prerequisites
