@@ -94,6 +94,7 @@ header nav a {
 .projects {
   margin: 0 20px;
   position: relative;
+  display: grid;
 }
 
 .project-flex {
@@ -195,7 +196,7 @@ header nav a {
   background-image: url('./assets/images/about-lower.png');
   background-size: 300px;
   background-repeat: no-repeat;
-  width: 400px;
+  width: 376px;
   height: 350px;
 }
 
@@ -203,8 +204,8 @@ header nav a {
   background-image: url('./assets/images/about-up.png');
   background-size: contain;
   background-repeat: no-repeat;
-  right: -40px;
-  width: 100px;
+  right: 0;
+  width: 63px;
   height: 100px;
   position: absolute;
 }
@@ -487,9 +488,9 @@ header nav a {
   background-image: url('./assets/images/form.png');
   background-repeat: no-repeat;
   background-size: contain;
-  width: 300px;
+  width: 58px;
   height: 150px;
   position: absolute;
-  right: -240px;
+  right: 0;
   bottom: 40px;
 }
