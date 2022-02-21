@@ -94,7 +94,8 @@ header nav a {
 .projects {
   margin: 0 20px;
   position: relative;
-  display: grid;
+  /* display: grid; */
+  float: left;
 }
 
 .project-flex {
