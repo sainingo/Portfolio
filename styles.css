@@ -694,6 +694,18 @@ header nav a {
     left: 30%;
   }
 
+  .get-intouch ul {
+    position: absolute;
+    bottom: -300px;
+    left: 35%;
+    padding: 20px;
+  }
+
+  header nav ul:hover {
+    cursor: pointer;
+    background-color: #6a7b99;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -775,13 +787,6 @@ header nav a {
 
   .get-intouch textarea {
     width: 80%;
-  }
-
-  .get-intouch ul {
-    position: absolute;
-    bottom: -300px;
-    left: 35%;
-    padding: 20px;
   }
 
   hr {
@@ -902,6 +907,11 @@ header nav a {
     bottom: -370px;
     left: 40%;
     padding: 20px;
+  }
+
+  header nav ul:hover {
+    cursor: pointer;
+    background-color: #6a7b99;
   }
 }
 
@@ -1120,5 +1130,10 @@ header nav a {
 
   .get-intouch ul li {
     padding: 0 20px;
+  }
+
+  header nav ul:hover {
+    cursor: pointer;
+    background-color: #6a7b99;
   }
 }
