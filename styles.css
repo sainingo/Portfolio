@@ -69,20 +69,33 @@ header nav a {
   display: none;
 }
 
+header.active {
+  background-color: #fff;
+  height: 100vh;
+  z-index: -1;
+}
+
+.logo {
+  opacity: 0;
+}
+
 .nav-links {
   display: block;
   position: absolute;
   right: 100%;
   top: 60px;
-  margin: 16px 0;
+}
+
+.nav-links > li {
+  margin: 22px 0;
 }
 
 .nav-links > li a {
-  font-size: 0.92rem;
+  font-size: 1.2rem;
 }
 
 .nav-links.active {
-  right: 30%;
+  right: 60%;
 }
 
 .wrapper {
