@@ -12,14 +12,15 @@
     <body>
       
         <header class="main-header1">
-            <a href="index.html">Welcome</a>
+            <a href="index.html" class="logo">Welcome</a>
             <nav>
-                <ul>
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                <ul class="nav-links">
+                    <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
                 </ul>
-                <a href="#">&#9776;</a>
+                <a href="#" class="hamburger">&#9776;</a>
+                <i class="fa-solid fa-x close"></i>
             </nav>
           </header>
     <div class="wrapper"> 
@@ -46,7 +47,7 @@
      </main>
 
  
-     <section class="projects">
+     <section id="portfolio" class="projects">
         <div class="project-flex">
             <span class="disable-icon"><img src="./assets/images/Disabled.png" alt="disable" ></span>
             <h2>My Recent Works</h2>
@@ -157,7 +158,7 @@
      </section>
 
    
-     <section>
+     <section id="about">
          <div class="about-me">
             <div class="upper-bg"></div>
             <h4>About Me</h4>
@@ -205,7 +206,7 @@
         </li>
     </ul>
      </section>
-     <section class="get-intouch">
+     <section id="contact" class="get-intouch">
          <h4>I'm always intrested in hearing about new projects, so 
              if you'd like to get chat please get in touch</h4>
              <form action="https://formspree.io/f/moqrdrwj" method="POST">
@@ -229,5 +230,6 @@
      </section>
      <hr>
     </div>
+    <script src="app.js"></script>
     </body>
 </html>
