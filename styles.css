@@ -10,6 +10,7 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #fffdfd;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -49,6 +50,60 @@ header nav ul {
 header nav a {
   text-decoration: none;
   color: inherit;
+}
+
+.close {
+  display: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.close.active {
+  display: block;
+}
+
+.hamburger.active {
+  display: none;
+}
+
+header.active {
+  background-color: #fff;
+  height: 100vh;
+  z-index: -1;
+}
+
+.logo {
+  opacity: 0;
+}
+
+.nav-links {
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 60px;
+}
+
+.nav-links > li {
+  margin: 22px 0;
+}
+
+.nav-links > li a {
+  font-size: 1.2rem;
+}
+
+.nav-links.active {
+  right: 60%;
+}
+
+.wrapper {
+  margin-top: 10px;
+}
+
+.wrapper.active {
+  margin-top: 120px;
 }
 
 .flex h1 {
@@ -135,7 +190,6 @@ header nav a {
 }
 
 .container {
-  /* background: #ebf0ee; */
   border: 1px solid #d0d9d4;
   margin-top: 20px;
   border-radius: 8px;
