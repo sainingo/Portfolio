@@ -59,3 +59,21 @@ const projects = [
     source_link: '#',
   },
 ];
+
+const gridContainer = document.querySelector('.grid-container');
+
+const projectList = projects.map((element) => `<div class="container">
+<div class="card">
+   <img src="./assets/images/${element.featured_image}" alt="${element.name}" >
+   <div class="desc">
+       <h4>${element.name}</h4>
+       <ul>
+          ${element.technoligies.map((technology) => `<li>${technology}</li>`).join('')};
+       </ul>
+   </div>
+   <button type="button">See Project</button>
+</div>
+</div>`).join('');
+
+// console.log(projectList);
+gridContainer.innerHTML += projectList;
