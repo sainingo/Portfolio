@@ -29,4 +29,5 @@ document.querySelectorAll('.nav-item').forEach((el) => el.addEventListener('clic
   navLink.classList.toggle('active');
   header.classList.toggle('active');
   logo.classList.toggle('active');
+  wrapper.classList.toggle('active');
 }));

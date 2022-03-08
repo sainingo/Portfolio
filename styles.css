@@ -71,11 +71,13 @@ header nav a {
 
 header.active {
   background-color: #fff;
-  height: 100vh;
-  z-index: -1;
 }
 
 .logo {
+  opacity: 1;
+}
+
+.logo.active {
   opacity: 0;
 }
 
@@ -103,7 +105,7 @@ header.active {
 }
 
 .wrapper.active {
-  margin-top: 120px;
+  display: none;
 }
 
 .flex h1 {
@@ -568,16 +570,19 @@ header.active {
     font-size: 1.5rem;
   }
 
-  header nav a {
+  header nav .hamburger {
     display: none;
   }
 
-  header nav ul {
+  .nav-links {
     display: flex;
-    margin-right: 80px;
-    padding: 10px;
+    margin-right: 90px;
+    padding: 0;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 200;
+    right: 0;
+    top: 30px;
   }
 
   header nav ul li {
@@ -755,11 +760,6 @@ header.active {
     padding: 20px;
   }
 
-  header nav ul:hover {
-    cursor: pointer;
-    background-color: #6a7b99;
-  }
-
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -899,10 +899,7 @@ header.active {
   }
 
   header nav ul {
-    position: absolute;
-    top: 0;
-    left: 40%;
-    font-size: 1.2rem;
+    display: none;
   }
 
   .flex div {
@@ -962,11 +959,6 @@ header.active {
     left: 40%;
     padding: 20px;
   }
-
-  header nav ul:hover {
-    cursor: pointer;
-    background-color: #6a7b99;
-  }
 }
 
 @media (min-width: 2560px) {
@@ -983,10 +975,7 @@ header.active {
   }
 
   header nav ul {
-    position: absolute;
-    top: 20px;
-    left: 40%;
-    font-size: 2.1rem;
+    display: none;
   }
 
   .flex div {
@@ -1184,10 +1173,5 @@ header.active {
 
   .get-intouch ul li {
     padding: 0 20px;
-  }
-
-  header nav ul:hover {
-    cursor: pointer;
-    background-color: #6a7b99;
   }
 }
