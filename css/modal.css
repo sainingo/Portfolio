@@ -1,0 +1,158 @@
+.wrapper-container.show-modal {
+  display: none;
+}
+
+#project_details {
+  display: block;
+  margin: 12px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+#project_details > img {
+  margin: 4px;
+}
+
+#project_details .close-modal {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 29px;
+  right: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#project_details > h2 {
+  width: 93%;
+  color: #172b4d;
+  font-size: 32px;
+}
+
+#project_details > ul {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  margin: 4px 0 6px 0;
+}
+
+#project_details > ul li {
+  padding: 4px 8px;
+  background-color: #ebf0ee;
+  color: #3a4a42;
+  text-align: center;
+  margin: 0 3px;
+  border-radius: 8px;
+}
+
+#project_details > p {
+  font-size: 14px;
+  color: #344563;
+  padding-bottom: 12px;
+}
+
+#project_details > button {
+  background-color: #36b37f;
+  color: #fff;
+  padding: 12px 30px;
+  border: 0;
+  border-radius: 4px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+#project_details > button i {
+  margin-left: 4px;
+}
+
+#d-none {
+  display: none;
+}
+
+.deskt_image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile_image {
+    display: none;
+  }
+
+  .deskt_image {
+    display: block;
+    width: 700px;
+    margin-bottom: 40px;
+  }
+
+  #project_details > h2 {
+    text-align: center;
+    margin: 10px;
+  }
+
+  #project_details > ul {
+    font-size: 16px;
+    margin: 6px 0 6px 0;
+    justify-content: center;
+  }
+
+  #project_details > ul li {
+    padding: 6px 8px;
+    margin: 5px 12px;
+  }
+
+  #project_details > p {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  #project_details .btn {
+    width: 25%;
+    color: yellow;
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .deskt_image {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #project_details > h2 {
+    text-align: start;
+    margin: 10px;
+  }
+
+  #project_details > ul {
+    font-size: 16px;
+    margin: 6px 0 6px 0;
+    justify-content: flex-start;
+  }
+
+  #project_details > p {
+    width: 90%;
+    margin: 10px;
+  }
+
+  #project_details {
+    position: relative;
+  }
+
+  #project_details .btn-1 {
+    width: 13%;
+    position: absolute;
+    bottom: 120px;
+    right: 200px;
+    padding: 12px 20px;
+    color: #fff;
+  }
+
+  #project_details .btn-2 {
+    width: 15%;
+    position: absolute;
+    bottom: 120px;
+    right: 20px;
+    padding: 12px 15px;
+    color: #fff;
+  }
+}
