@@ -144,6 +144,7 @@
     bottom: 120px;
     right: 200px;
     padding: 12px 20px;
+    color: #fff;
   }
 
   #project_details .btn-2 {
@@ -152,5 +153,6 @@
     bottom: 120px;
     right: 20px;
     padding: 12px 15px;
+    color: #fff;
   }
 }

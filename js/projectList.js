@@ -99,6 +99,7 @@ const modalContent = (project) => {
   wrapperContainer.classList.add('show-modal');
 };
 
+/* eslint-disable no-unused-vars */
 const showModal = (pid) => {
   projects.find((item) => {
     if (Number(pid) === Number(item.id)) {
@@ -113,3 +114,4 @@ function hidePopup() {
   wrapperContainer.classList.remove('show-modal');
   // window.scrollTo(0, 0);
 }
+/* eslint-disable no-unused-vars */
