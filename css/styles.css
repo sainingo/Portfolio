@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  background-image: url("./assets/images/bg_img.png");
+  background-image: url("../assets/images/bg_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -154,7 +154,7 @@ header.active {
 }
 
 .projects {
-  margin: 296px 20px 0 20px;
+  margin: 50px 20px 0 20px;
   position: relative;
   display: grid;
 }
@@ -254,7 +254,7 @@ header.active {
 }
 
 .about-me {
-  background-image: url('./assets/images/about-lower.png');
+  background-image: url('../assets/images/about-lower.png');
   background-size: 300px;
   background-repeat: no-repeat;
   width: 376px;
@@ -262,7 +262,7 @@ header.active {
 }
 
 .upper-bg {
-  background-image: url('./assets/images/about-up.png');
+  background-image: url('../assets/images/about-up.png');
   background-size: contain;
   background-repeat: no-repeat;
   right: 0;
@@ -546,7 +546,7 @@ header.active {
 }
 
 .form-img {
-  background-image: url('./assets/images/form.png');
+  background-image: url('../assets/images/form.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 58px;
@@ -558,7 +558,7 @@ header.active {
 
 @media (min-width: 768px) {
   main {
-    background-image: url("./assets/images/header_desktop.png");
+    background-image: url("../assets/images/header_desktop.png");
     background-repeat: no-repeat;
     background-size: 996px 822px;
     height: 95vh;
@@ -641,7 +641,7 @@ header.active {
   }
 
   .about-me {
-    background-image: url('./assets/images/about-lower.png');
+    background-image: url('../assets/images/about-lower.png');
     background-size: 300px;
     background-repeat: no-repeat;
     width: 100%;
@@ -717,7 +717,7 @@ header.active {
 
 @media (min-width: 1024px) {
   main {
-    background-image: url("./assets/images/header_desktop.png");
+    background-image: url("../assets/images/header_desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
@@ -768,7 +768,7 @@ header.active {
   }
 
   .about-me {
-    background-image: url('./assets/images/about_me2.png');
+    background-image: url('../assets/images/about_me2.png');
     background-size: 254px 138px;
     background-repeat: no-repeat;
     height: 347px;
@@ -777,7 +777,7 @@ header.active {
   }
 
   .upper-bg {
-    background-image: url('./assets/images/about_me1.png');
+    background-image: url('../assets/images/about_me1.png');
     background-size: 167px 210px;
     background-repeat: no-repeat;
     right: -20px;
@@ -852,7 +852,7 @@ header.active {
   }
 
   .form-img {
-    background-image: url('./assets/images/contact_form.png');
+    background-image: url('../assets/images/contact_form.png');
     background-repeat: no-repeat;
     width: 117px;
     height: 175px;
@@ -862,7 +862,7 @@ header.active {
   }
 
   .left-bg {
-    background-image: url('./assets/images/illustrate_bg.png');
+    background-image: url('../assets/images/illustrate_bg.png');
     background-repeat: no-repeat;
     background-size: contain;
     top: 294px;
@@ -873,7 +873,7 @@ header.active {
   }
 
   .right-bg {
-    background-image: url('./assets/images/form_bg.png');
+    background-image: url('../assets/images/form_bg.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -891,7 +891,7 @@ header.active {
 
 @media (min-width: 1440px) {
   main {
-    background-image: url("./assets/images/header_desktop.png");
+    background-image: url("../assets/images/header_desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
@@ -907,7 +907,7 @@ header.active {
   }
 
   .form-img {
-    background-image: url('./assets/images/contact_form.png');
+    background-image: url('../assets/images/contact_form.png');
     background-repeat: no-repeat;
     width: 13%;
     height: 35%;
@@ -917,7 +917,7 @@ header.active {
   }
 
   .left-bg {
-    background-image: url('./assets/images/illustrate_bg.png');
+    background-image: url('../assets/images/illustrate_bg.png');
     background-repeat: no-repeat;
     background-size: contain;
     top: 250px;
@@ -928,7 +928,7 @@ header.active {
   }
 
   .right-bg {
-    background-image: url('./assets/images/form_bg.png');
+    background-image: url('../assets/images/form_bg.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -967,7 +967,7 @@ header.active {
   }
 
   main {
-    background-image: url("./assets/images/header_desktop.png");
+    background-image: url("../assets/images/header_desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
