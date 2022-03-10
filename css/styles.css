@@ -448,7 +448,8 @@ header.active {
 .get-intouch {
   display: flex;
   flex-direction: column;
-  position: relative;
+
+  /* position: relative; */
 }
 
 .get-intouch h4 {
@@ -477,38 +478,31 @@ header.active {
   padding: 8px;
 }
 
-.get-intouch textarea {
-  background: #fff;
+.text_area {
+  background-color: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
   width: 327px;
-  height: 114px;
-  padding: 8px;
-  color: #091e42;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 24px;
+  height: 80px;
 }
 
-.get-intouch button {
-  background: #36b37f;
+textarea {
+  height: 50%;
+  width: 327px;
   border-radius: 4px;
-  width: 129px;
-  height: 48px;
-  align-items: center;
-  border: none;
-  margin: 20px 30%;
-  font-size: 17px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  color: #fff;
+  background: #fff;
+  border: 1px solid #60c095;
+  font-size: 15px;
+  color: #091e42;
 }
 
-.get-intouch button:hover {
-  background: #5a5a5a;
+.btn_submit {
+  background-color: #60c095;
+  padding: 2px 5px 8px;
+  border: 0;
+  border-radius: 5px;
+  align-self: flex-start;
+  margin-left: 70px;
   color: #fff;
 }
 
@@ -839,10 +833,6 @@ header.active {
     width: 80%;
   }
 
-  .get-intouch textarea {
-    width: 80%;
-  }
-
   hr {
     border: 1px solid #dfe1e6;
   }
@@ -881,11 +871,6 @@ header.active {
     left: 767px;
     width: 214px;
     height: 465px;
-  }
-
-  .get-intouch form button {
-    align-self: flex-start;
-    margin-left: 35px;
   }
 }
 
@@ -946,11 +931,6 @@ header.active {
   .get-intouch h4 {
     width: 70%;
     margin: 0 0 0 40px;
-  }
-
-  .get-intouch form button {
-    align-self: flex-start;
-    margin-left: 72px;
   }
 
   .get-intouch ul {
@@ -1146,21 +1126,6 @@ header.active {
   .get-intouch form input {
     font-size: 1.7rem;
     padding: 40px;
-  }
-
-  .get-intouch form textarea {
-    font-size: 1.7rem;
-    padding: 120px;
-    text-align: justify;
-  }
-
-  .get-intouch form button {
-    font-size: 2.7rem;
-    width: 40%;
-    padding: 40px 40px 60px 40px;
-    border-radius: 8px;
-    margin: 40px auto;
-    text-align: center;
   }
 
   .get-intouch ul {

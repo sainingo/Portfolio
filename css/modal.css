@@ -72,6 +72,11 @@
   display: none;
 }
 
+small {
+  display: block;
+  color: red;
+}
+
 @media (min-width: 768px) {
   .mobile_image {
     display: none;
