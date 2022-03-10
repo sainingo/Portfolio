@@ -72,9 +72,18 @@
   display: none;
 }
 
-small {
-  display: block;
+.email-error {
+  border: 1px solid red;
+}
+
+.email-error:focus-within {
+  border: 1px solid red;
+}
+
+.error-message {
   color: red;
+  font-size: 12px;
+  display: block;
 }
 
 @media (min-width: 768px) {
