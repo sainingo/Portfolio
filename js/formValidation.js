@@ -10,7 +10,6 @@ const textContent = document.querySelector('.text_area');
 const savetoLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringify(data));
 const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
-// const formData = Object.fromEntries(new FormData(formElement).entries())
 const formData = getLocalStorage('formData');
 if(formData !== null){
   userName.value = formData.name;
@@ -26,7 +25,6 @@ formElements.forEach((item) => {
       message: textContent.value
     };
     savetoLocalStorage('formData', dataObject);
-    // console.log(dataObject)
   })
 })
 
