@@ -11,7 +11,7 @@ const savetoLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringi
 const getLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 const formData = getLocalStorage('formData');
-if(formData !== null){
+if (formData !== null) {
   userName.value = formData.name;
   email.value = formData.email;
   textContent.value = formData.message;
@@ -22,12 +22,11 @@ formElements.forEach((item) => {
     const dataObject = {
       name: userName.value,
       email: email.value,
-      message: textContent.value
+      message: textContent.value,
     };
     savetoLocalStorage('formData', dataObject);
-  })
-})
-
+  });
+});
 
 const validateEmail = () => {
   const lowercaseEmail = email.value.toLowerCase();
@@ -39,7 +38,6 @@ const validateEmail = () => {
   }
   email.classList.remove('email-error');
   return true;
-
 };
 
 formElement.addEventListener('submit', (event) => {
